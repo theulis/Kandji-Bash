@@ -31,4 +31,13 @@ This script checks whether SSH (Remote Login) is enabled on a macOS system.
 Kandji has a Library item where you can manage SSH settings:
 [Configure the SSH Library Item](https://support.kandji.io/kb/configure-the-ssh-library-item)
 
+## Check macOS version - Compliance
+
+```bash
+macOS-Version-Check.sh
+```
+
+This script checks the macOS version installed and sends a message to the end user reminding them that they do not run the latest macOS version 
+
+[Display Alerts] (https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
 
