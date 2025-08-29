@@ -41,3 +41,19 @@ This script checks the macOS version installed and sends a message to the end us
 
 [Display Alerts] (https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
 
+## Check macOS Battery
+
+```bash
+Laptop-Battery-Check.sh
+```
+
+This script checks the Laptop Battery Status. Kandji Self Services gives General Power info (Charge + Health), but not detailed. This script can be used as a Kandji Self-Service item
+
+```
+Battery Charge: 100 %
+Design Capacity: 6075 mAh
+AppleRawMaxCapacity: 4866 mAh
+Battery Health: 80.00%
+Load Cycles: 320
+Battery Temperature: 35.15 °C
+```
