@@ -3,6 +3,10 @@
 
 ## NX Vulnerability Checker
 
+```bash
+NX-Vulnerability-Simple-Check.sh
+```
+
 This script checks whether your system has a vulnerable version of the **NX** package installed. It specifically targets versions of NX that have been reported as compromised in popular npm packages.
 
 For more details about the vulnerability, see this blog post: [Popular NX Packages Compromised on npm](https://www.aikido.dev/blog/popular-nx-packages-compromised-on-npm).
