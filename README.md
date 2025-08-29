@@ -23,3 +23,14 @@ For more details about the vulnerability, see this blog post: [Popular NX Packag
   - `2` — Vulnerable NX version detected.
 
 ---
+
+## Check SSH Status
+
+This script checks whether SSH (Remote Login) is enabled on a macOS system.  
+- If SSH is enabled, it prints a warning message with an emoji and exits with code `2`.  
+- If SSH is disabled, it confirms that the system is in a safe state and exits with code `0`.
+
+Kandji has a Library item where you can manage SSH settings:
+[Configure the SSH Library Item](https://support.kandji.io/kb/configure-the-ssh-library-item)
+
+
