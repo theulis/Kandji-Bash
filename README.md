@@ -47,7 +47,9 @@ This script checks the macOS version installed and sends a message to the end us
 Laptop-Battery-Check.sh
 ```
 
-This script checks the Laptop Battery Status. Kandji Self Services gives General Power info (Charge + Health), but not detailed. This script can be used as a Kandji Self-Service item
+This script checks the Laptop Battery Status. Kandji Self Services gives General Power info (Charge + Health), but not detailed. This script can be used as a Kandji Self-Service item and the message can be displayed to the user as an Alert message 
+
+[Display Alerts] (https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
 
 ```
 Battery Charge: 100 %
