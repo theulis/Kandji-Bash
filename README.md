@@ -11,10 +11,6 @@ This script checks whether your system has a vulnerable version of the **NX** pa
 
 For more details about the vulnerability, see this blog post: [Popular NX Packages Compromised on npm](https://www.aikido.dev/blog/popular-nx-packages-compromised-on-npm).
 
----
-
-### Features
-
 - Detects NX installations in common locations (`/opt/homebrew/bin/nx` and `/usr/local/bin/nx`).
 - Checks both **global** and **local** NX versions.
 - Compares versions against a list of known vulnerable versions.
@@ -22,9 +18,11 @@ For more details about the vulnerability, see this blog post: [Popular NX Packag
   - `0` — NX is either not installed or not vulnerable.
   - `2` — Vulnerable NX version detected.
 
----
-
 ## Check SSH Status
+
+```bash
+SSH-Check.sh
+```
 
 This script checks whether SSH (Remote Login) is enabled on a macOS system.  
 - If SSH is enabled, it prints a warning message with an emoji and exits with code `2`.  
