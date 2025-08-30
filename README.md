@@ -75,18 +75,6 @@ This script has a hardcoded Cisco Secure Client version (5.1.11.388)
 [Cisco Secure Client Release Notes](https://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/Cisco-Secure-Client-5/release/notes/release-notes-cisco-secure-client-5-1.html)
 
 
-```
-Cisco-Secure-Client-Audit_uninistall.sh
-```
-
-If we want to uninstall our modules for a cleaner install we can use this script, which includes the commands below
-``` 
-sudo /opt/cisco/secureclient/bin/vpn_uninstall.sh  ## VPN module
-sudo /opt/cisco/secureclient/bin/umbrella_uninstall.sh ## Umbrella module
-sudo /opt/cisco/secureclient/bin/dart_uninstall.sh ## DART module
-sudo /opt/cisco/secureclient/bin/zta_uninstall.sh  ## ZTNA module
-```
-
 ## Check macOS uptime
 
 ```
