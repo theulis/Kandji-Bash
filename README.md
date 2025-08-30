@@ -75,6 +75,17 @@ The Audit option (script) can check for the presence of an app or a specific app
 This script has a hardcoded Cisco Secure Client version (5.1.11.388)
 [Cisco Secure Client Release Notes](https://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/Cisco-Secure-Client-5/release/notes/release-notes-cisco-secure-client-5-1.html)
 
+```
+Cisco-Secure-Client-Audit+Uninstall.sh
+```
+We can use this variation, if we want to Uninstall the different Cisco Secure Client modules before the Audit will kick the installation process 
+
+```
+sudo /opt/cisco/secureclient/bin/vpn_uninstall.sh  ## VPN module
+sudo /opt/cisco/secureclient/bin/umbrella_uninstall.sh ## Umbrella module
+sudo /opt/cisco/secureclient/bin/dart_uninstall.sh ## DART module
+sudo /opt/cisco/secureclient/bin/zta_uninstall.sh  ## ZTNA module
+```
 
 ## Check macOS uptime
 
