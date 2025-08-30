@@ -37,9 +37,7 @@ Kandji has a Library item where you can manage SSH settings:
 macOS-Version-Check.sh
 ```
 
-This script checks the macOS version installed and sends a message to the end user reminding them that they do not run the latest macOS version 
-
-[Display Alerts](https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
+This script checks the macOS version installed and sends a message to the end user reminding them that they do not run the latest macOS version   - Kandji Reference: [Display Alerts](https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
 
 ## Check macOS Battery
 
@@ -47,9 +45,7 @@ This script checks the macOS version installed and sends a message to the end us
 Laptop-Battery-Check.sh
 ```
 
-This script checks the Laptop Battery Status. Kandji Self Services gives General Power info (Charge + Health), but not detailed. This script can be used as a Kandji Self-Service item and the message can be displayed to the user as an Alert message 
-
-[Display Alerts](https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
+This script checks the Laptop Battery Status. Kandji Self Services gives General Power info (Charge + Health), but not detailed. This script can be used as a Kandji Self-Service item and the message can be displayed to the user as an Alert message  - Kandji Reference: [Display Alerts](https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
 
 ```
 Battery Charge: 100 %
@@ -66,9 +62,7 @@ Battery Temperature: 35.15 °C
 Cisco-Secure-Client-Audit.sh
 ```
 
-The Audit option (script) can check for the presence of an app or a specific app version; if it is not present, the script would prompt Kandji to install it, by running the main script
-
-[Audit Script Considerations](https://support.kandji.io/kb/custom-apps-overview#audit-script-considerations)
+The Audit option (script) can check for the presence of an app or a specific app version; if it is not present, the script would prompt Kandji to install it, by running the main script - Kandji Reference: [Audit Script Considerations](https://support.kandji.io/kb/custom-apps-overview#audit-script-considerations)
 
 This script has a hardcoded Cisco Secure Client version (5.1.11.388)
 [Cisco Secure Client Release Notes](https://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/Cisco-Secure-Client-5/release/notes/release-notes-cisco-secure-client-5-1.html)
