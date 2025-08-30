@@ -54,6 +54,7 @@ AppleRawMaxCapacity: 4866 mAh
 Battery Health: 80.00%
 Load Cycles: 320
 Battery Temperature: 35.15 °C
+```
 
 ## Check custom App - Cisco Secure Endpoint example (Kandji Audit)
 
