@@ -39,7 +39,7 @@ macOS-Version-Check.sh
 
 This script checks the macOS version installed and sends a message to the end user reminding them that they do not run the latest macOS version 
 
-[Display Alerts] (https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
+[Display Alerts](https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
 
 ## Check macOS Battery
 
