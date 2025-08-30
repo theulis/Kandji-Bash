@@ -71,4 +71,4 @@ The Audit option (script) can check for the presence of an app or a specific app
 [Audit Script Considerations](https://support.kandji.io/kb/custom-apps-overview#audit-script-considerations)
 
 This script has a hardcoded Cisco Secure Client version (5.1.11.388)
-[Cisco Secure Client Release Notes] (https://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/Cisco-Secure-Client-5/release/notes/release-notes-cisco-secure-client-5-1.html)
+[Cisco Secure Client Release Notes](https://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/Cisco-Secure-Client-5/release/notes/release-notes-cisco-secure-client-5-1.html)
