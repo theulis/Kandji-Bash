@@ -54,9 +54,16 @@ AppleRawMaxCapacity: 4866 mAh
 Battery Health: 80.00%
 Load Cycles: 320
 Battery Temperature: 35.15 °C
-```
-## Check Cisco Secure Client version (Kandji Audit)
 
+## Check custom App - Cisco Secure Endpoint example (Kandji Audit)
+
+```
+Custom-App-Audit.sh
+```
+
+The is a simple example of the Audit option (script) - Kandji Reference: [Audit Script Considerations](https://support.kandji.io/kb/custom-apps-overview#audit-script-considerations) This script can check for the presence of an app and if it is not present, the script would prompt Kandji to install it, by running the main script. 
+
+## Check Cisco Secure Client version (Kandji Audit)
 
 ```
 Cisco-Secure-Client-Audit.sh
