@@ -66,3 +66,12 @@ The Audit option (script) can check for the presence of an app or a specific app
 
 This script has a hardcoded Cisco Secure Client version (5.1.11.388)
 [Cisco Secure Client Release Notes](https://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/Cisco-Secure-Client-5/release/notes/release-notes-cisco-secure-client-5-1.html)
+
+
+## Check macOS uptime
+
+```
+Device_Uptime.sh
+```
+
+The script will check the device uptime and if it exceeds x days (hardcoded 30) the user will get a Kandji notification to reboot their device  - Kandji Reference: [Display Alerts](https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
