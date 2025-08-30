@@ -6,10 +6,22 @@
 # 02075 -- Build number
 
 # This script checks if the version is greater than or equal to a hardcoded version (here 5.1.11.388)
-# If it is, the script exits with status 0
-# If it is not, the script exits with status 1
+# If it is, the audit script exits with status 0
+# If it is not, the sudit script exits with status 1
 # Release Notes https://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/Cisco-Secure-Client-5/release/notes/release-notes-cisco-secure-client-5-1.html
 # This will be used as an Audit Check in Kandji, so the devices that running an older version, will be automatically be updated to the latest version
+
+
+## First check if the App is installed
+## If we want a simpler script that check the presence of the App 
+## then we can simply use this (smaller) part of the script.
+
+if [ -e "/Applications/Cisco/Cisco Secure Client.app" ]; then
+    echo "Cisco Secure Client installed... Checking installed version"
+else
+    echo "Cisco Secure Client not installed ... Installing"
+    exit 1
+fi
 
 
 # Run the command and capture the output
