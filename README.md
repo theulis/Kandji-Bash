@@ -94,3 +94,12 @@ Device_Uptime.sh
 ```
 
 The script will check the device uptime and if it exceeds x days (hardcoded 30) the user will get a Kandji notification to reboot their device  - Kandji Reference: [Display Alerts](https://support.kandji.io/kb/kandji-agent-command-line-interface#alert) 
+
+
+## Check Brew Packages
+
+```
+Brew-Packages-Audit.sh
+```
+
+This script is a simple Homebrew package auditor that checks if Homebrew is installed on your Mac and then lists all your installed Homebrew packages.  For more information please check the complete Audit Repo [https://github.com/theulis/Kandji-Brew-Audit]
