@@ -22,15 +22,15 @@ if [ -d "$DOCKER_APP" ]; then
 
     # Remove residual user files
     echo "Removing user Docker files..."
-    sudo rm -rf ~/Library/Group\ Containers/group.com.docker
-    sudo rm -rf ~/.docker
+    sudo /bin/rm -rf ~/Library/Group\ Containers/group.com.docker
+    sudo /bin/rm -rf ~/.docker
 
     # Remove privileged helper tools only if version <= 4.36
     if [ -n "$VERSION" ]; then
         if [ "$(printf '%s\n' "4.36" "$VERSION" | sort -V | head -n1)" = "$VERSION" ]; then
             echo "Version $VERSION <= 4.36 detected. Removing helper tools..."
-            sudo rm -f "$HELPER_DIR/com.docker.vmnetd"
-            sudo rm -f "$HELPER_DIR/com.docker.socket"
+            sudo /bin/rm -f "$HELPER_DIR/com.docker.vmnetd"
+            sudo /bin/rm -f "$HELPER_DIR/com.docker.socket"
         else
             echo "Version $VERSION > 4.36. Skipping helper tools removal."
         fi
@@ -38,7 +38,7 @@ if [ -d "$DOCKER_APP" ]; then
 
     # Remove the application bundle itself
     echo "Deleting Docker.app from Applications..."
-    sudo rm -rf "$DOCKER_APP"
+    sudo /bin/rm -rf "$DOCKER_APP"
 
     echo "✅ Docker Desktop has been fully uninstalled."
 else
